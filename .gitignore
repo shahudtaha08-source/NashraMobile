@@ -1,0 +1,78 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.iws
+.vscode/
+.history/
+.atom/
+.svn/
+
+# Logs and temporary files
+*.log
+*.pyc
+*.swp
+.buildlog/
+temp/
+backups/
+logs/
+exports/
+screenshots/
+
+# Flutter / Dart generated files
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/coverage/
+
+# Flutter generated platform files
+app/android/local.properties
+app/android/key.properties
+app/ios/Flutter/Generated.xcconfig
+app/ios/Flutter/flutter_export_environment.sh
+app/ios/Flutter/Flutter.podspec
+app/ios/Flutter/Flutter.framework
+app/ios/Flutter/App.framework
+app/ios/Flutter/engine_changed
+app/ios/Flutter/App.podspec
+app/ios/Flutter/Flutter.xcframework
+app/ios/Flutter/App.xcframework
+app/ios/Flutter/GeneratedConfig.plist
+app/ios/Flutter/GeneratedConfig.json
+
+# Android / signing secrets
+**/*.jks
+**/*.keystore
+**/key.properties
+
+# Local SDKs and JDK
+/android_sdk/
+/jdk/
+
+# Local build outputs
+/builds/
+*.apk
+*.aab
+
+# Local tooling, stale snapshots, and obsolete documentation
+/.kiro/
+/third_party/
+/install_android_sdk.bat
+/run_flutter.ps1
+/setup_android.ps1
+/AIEngine.diff.txt
+/CURRENT_STATUS.md
+/INSTALLATIONS.md
+/PRAYER_SYSTEM_GUIDE.md
+/structure.md
+/structure.txt
+
+# llama.cpp generated build and temporary clone
+/third_party/llama.cpp-build/
+/third_party/llama.cpp-cli-source/
+/third_party/llama.cpp/
